@@ -2,9 +2,27 @@
 http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
+@font-face {   
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Medium.ttf');
+  font-weight: normal;
+}
+
+@font-face {   
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {   
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Thin.ttf');
+  font-weight: 100;
+}
 :root {
+
+  --ion-font-family: Roboto;
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #0e3476;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -52,12 +70,20 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-danger-tint: #ed576b;
 
   /** dark **/
-  --ion-color-dark: #222428;
+  --ion-color-dark: #1e2b43;
   --ion-color-dark-rgb: 34, 36, 40;
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
   --ion-color-dark-shade: #1e2023;
   --ion-color-dark-tint: #383a3e;
+
+  /** dark 2 **/
+  --ion-color-modalDark: red;
+  --ion-color-modalDark-rgb: 34, 36, 40;
+  --ion-color-modalDark-contrast: #ffffff;
+  --ion-color-modalDark-contrast-rgb: 255, 255, 255;
+  --ion-color-modalDark-shade: #1e2023;
+  --ion-color-modalDark-tint: #383a3e;
 
   /** medium **/
   --ion-color-medium: #92949c;

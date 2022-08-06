@@ -1,0 +1,1 @@
+export const SERVER_URL = 'http://hwthon.azoherra.com:8998';
