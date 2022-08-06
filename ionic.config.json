@@ -1,0 +1,7 @@
+{
+  "name": "baliza",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
